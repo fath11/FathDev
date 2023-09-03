@@ -1,0 +1,64 @@
+selector {
+  property: value;
+}
+
+body {
+  background-color: black;
+  -webkit-text-fill-color: white;
+  font-family: "Sans-serif", "Arial";
+  text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #222;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff005c;
+  color: white;
+}
+
+.scratchtutorials {
+  text-align: left;
+}
+
+.ganditutorials {
+  text-align: left;
+}
+
+.godotdevlogs {
+  text-align: left;
+}
+
+.challenges {
+  text-align: left;
+}
+
+.products {
+  text-align: left;
+}
+
+iframe {
+  padding-left: 5px;
+  padding-right: 5px;
+}
