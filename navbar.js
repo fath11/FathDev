@@ -47,7 +47,7 @@ function set_state(page) {
   var currentLink = window.location.href;
   switch (page) {
     case 'home':
-      if (currentLink == "https://fathdev.fath11.repl.co/index.html") {
+      if (/index\.html$/.test(currentLink)) {
         return "active";
       }
       else {
@@ -55,7 +55,7 @@ function set_state(page) {
       }
       break;
     case 'videos':
-      if (currentLink == "https://fathdev.fath11.repl.co/videos.html") {
+      if (/videos\.html$/.test(currentLink)) {
         return "active";
       }
       else {
@@ -63,7 +63,7 @@ function set_state(page) {
       }
       break;
     case 'courses':
-      if (currentLink == "https://fathdev.fath11.repl.co/courses.html") {
+      if (/courses\.html$/.test(currentLink)) {
         return "active";
       }
       else {
@@ -71,7 +71,7 @@ function set_state(page) {
       }
       break;
     case 'about':
-      if (currentLink == "https://fathdev.fath11.repl.co/about.html") {
+      if (/about\.html$/.test(currentLink)) {
         return "active";
       }
       else {
